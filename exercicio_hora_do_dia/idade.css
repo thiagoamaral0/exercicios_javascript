@@ -1,0 +1,36 @@
+body{
+    background: rgb(109, 109, 253);
+    font: normal 16px Arial;
+}
+header{
+    text-align: center;
+    color: white;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.295);
+}
+div#horas{
+    text-align: center;
+    font: normal 18px Arial;
+    border-radius: 10px;
+}
+div#msg{
+    text-align: center;
+    font: normal 20px Arial;
+}
+
+
+footer{
+    background-color: blueviolet;
+    border-radius: 10px;
+    width: 155px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
