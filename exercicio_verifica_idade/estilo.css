@@ -1,0 +1,40 @@
+header{
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 5px 5px 10px rgba(245, 245, 245, 0.158);
+}
+
+div#resposta{
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    object-fit: cover;
+    width: 500px;
+    height: 354.3px;
+    border-radius: 10px;
+}
+
+
+
+footer{
+    font-size: 120%;
+    background-color: purple;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    color: whitesmoke;
+}

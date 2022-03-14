@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verifica Idade</title>
+    <style>
+        /* ESTILO PADRÂO */
+        body{
+            background-color: #111111;
+            color: #111111;
+            font: normal 16px Arial;
+        }
+    </style>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>VERIFICADOR DE IDADE</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de nascimento:
+                <input type="number" name="nascimento" id="nascimento">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="inputsex" id="masculino" checked>
+                <label for="masculino"><strong> Masculino</strong></label>
+                <input type="radio" name="inputsex" id="feminino">
+                <label for="feminino"><strong>Feminino</strong></label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="resposta">
+            Preencha os dados acima para ver o resultado
+        </div>
+    </section>
+    <footer>
+        <strong>&copy;Thiago Produções</strong>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
