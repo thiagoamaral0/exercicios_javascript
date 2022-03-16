@@ -1,0 +1,33 @@
+body{
+    background-color: #757ca8;
+    color: whitesmoke;
+    font: normal 18px Arial;
+}
+header{
+    text-align: center;
+}
+
+section{
+    color: #111111;
+    margin: auto;
+    width: 600px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+div#resposta{
+    padding-top: 15px;
+    color: #111111;
+}
+
+
+footer{
+    background-color: black;
+    color: #bfbda6;
+    width:220px;
+    font-size: larger;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 8px;
+    padding: 5px;
+}
