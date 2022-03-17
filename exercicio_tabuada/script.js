@@ -1,6 +1,6 @@
 function tabuada(){
     var numero = document.getElementById('numero')
-    var resposta = document.querySelector('div#resposta')
+    var resposta = document.querySelector('select#resposta')
 
     if (numero.length == 0){
         window.alert('Verifique os dados')
@@ -11,6 +11,7 @@ function tabuada(){
         while(contador <= 10){
             var elemento = document.createElement('option')
             elemento.text = `${valor} x ${contador} = ${valor * contador}`
+            elemento.value = `valor ${contador}`
             contador ++
             resposta.appendChild(elemento)
         }
