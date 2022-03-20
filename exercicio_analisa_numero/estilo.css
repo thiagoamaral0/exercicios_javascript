@@ -1,0 +1,41 @@
+body{
+    background-color: #111111;
+    color: whitesmoke;
+    font: 16px normal Arial;
+}
+header{
+    font-size: larger;
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    color: #111111;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+select#valores{
+    width: 150px;
+}
+footer{
+    background-color: whitesmoke;
+    color: #111111;
+    width: 160px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: large;
+    margin: auto;
+    margin-top: 5px;
+}
+div#resposta{
+    margin-top: 10px;
+    font-size: xx-large;
+}
+h3#texto{
+    font-size: medium;
+}
+
